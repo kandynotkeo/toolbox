@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# build &  production
+/dist
+/build
+
+# logs & debug
+logs
+*.log*
+
+# environment
+.env*
+*.pem
+*.key
+*.crt
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# operating system
+Thumbs.db
+.DS_Store
