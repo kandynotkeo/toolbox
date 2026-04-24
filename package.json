@@ -1,6 +1,6 @@
 {
   "name": "toolbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "author": "kandynotkeo",
   "type": "module",
@@ -29,6 +29,7 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "validate": "npm run lint && npm run format",
+    "build": "npm run format:fix && tsc",
     "change": "changeset",
     "version": "changeset version",
     "release": "changeset publish"
